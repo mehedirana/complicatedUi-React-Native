@@ -10,7 +10,7 @@ const Header = () =>{
         />
       </Appbar.Header>
     );
-  }
-}
+ }
+
 
 export default Header;
