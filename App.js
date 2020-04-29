@@ -12,23 +12,23 @@ export default function App() {
         <TextInput style={{ borderRadius: 30, backgroundColor: 'white', height: 50, margin: 40, }} />
       </ImageBackground>
 
-      <View>
+      <View style={{flex:1, flexDirection:'row', marginTop:"-35%", justifyContent:'space-around'}}>
          <View>
-          <Card>
+          <Card style={styles.mycard}>
             <Card.Title/>
             <Card.Content>
               <Title>React Native</Title>
             </Card.Content>
 
           </Card>
-          <Card>
+          <Card style={styles.mycard}>
             <Card.Title />
             <Card.Content>
               <Title>React Native</Title>
             </Card.Content>
 
           </Card>
-          <Card>
+          <Card style={styles.mycard}>
             <Card.Title/>
             <Card.Content>
               <Title>React Native</Title>
@@ -37,21 +37,21 @@ export default function App() {
           </Card>
         </View>
          <View>
-          <Card>
+          <Card style={styles.mycard}>
             <Card.Title />
             <Card.Content>
               <Title>React Native</Title>
             </Card.Content>
 
           </Card>
-          <Card>
+          <Card style={styles.mycard}>
             <Card.Title/>
             <Card.Content>
               <Title>React Native</Title>
             </Card.Content>
 
           </Card>
-          <Card>
+          <Card style={styles.mycard}>
             <Card.Title/>
             <Card.Content>
               <Title>React Native</Title>
@@ -69,4 +69,8 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#f9f9f9',
   },
+  mycard:{
+    marginBottom:10,
+    elevation:4,
+  }
 });
