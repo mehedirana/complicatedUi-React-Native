@@ -5,7 +5,7 @@ import { Card, Title } from 'react-native-paper';
 import Search from './components/Search';
 import ViewHolder from './components/ViewHolder';
 
-
+const Drawer = createDrawerNavigator();
 export default function App() {
   return (
     <View style={styles.container}>
