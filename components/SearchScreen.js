@@ -2,7 +2,7 @@ import React from 'react';
 import { createDrawerNavigator } from '@react-navigation/drawer';
 import { NavigationContainer } from '@react-navigation/native';
 
-const Search = ()=>{
+const SearchScreen = ()=>{
  return(
      <View>
          <Text>hi i m search View</Text>
@@ -10,4 +10,4 @@ const Search = ()=>{
  )
 }
 
-export default Search;
+export default SearchScreen;

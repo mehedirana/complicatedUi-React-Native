@@ -4,7 +4,7 @@ import Header from './components/Header';
 import Search from './components/Search';
 import ViewHolder from './components/ViewHolder';
 
-const Home = () => {
+const HomeScreen = () => {
     return (
         <View style={styles.container}>
             <Header />
@@ -15,4 +15,10 @@ const Home = () => {
         </View>
     )
 }
-export default Home;
+export default HomeScreen;
+const styles = StyleSheet.create({
+    container: {
+      flex: 1,
+      backgroundColor: '#f9f9f9',
+    },
+  });
