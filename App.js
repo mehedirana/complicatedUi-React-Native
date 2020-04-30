@@ -1,11 +1,10 @@
 import React from 'react';
 import { StyleSheet, Text, View, ImageBackground, TextInput } from 'react-native';
 import Header from './components/Header';
-import { Card, Title } from 'react-native-paper';
 import Search from './components/Search';
 import ViewHolder from './components/ViewHolder';
 
-const Drawer = createDrawerNavigator();
+//const Drawer = createDrawerNavigator();
 export default function App() {
   return (
     <View style={styles.container}>
