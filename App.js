@@ -1,6 +1,6 @@
 import React from 'react';
 import { StyleSheet, Text, View, ImageBackground, TextInput } from 'react-native';
-import Header from './components/Header';
+
 import SearchScreen from './components/SearchScreen';
 import HomeScreen from './components/HomeScreen'
 import ViewHolder from './components/ViewHolder';
