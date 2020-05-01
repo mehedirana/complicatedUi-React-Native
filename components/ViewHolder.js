@@ -6,24 +6,21 @@ const ViewHolder = () =>{
 
     return(
     
-        <View style={{flex:1, flexDirection:'row', marginTop:"-35%", justifyContent:'space-around'}}>
+        <View style={{flex:1, flexDirection:'row', marginTop:"-25%", justifyContent:'space-around'}}>
          <View>
           <Card style={styles.mycard}>
-            <Card.Title/>
             <Card.Content>
               <Title>React Native</Title>
             </Card.Content>
 
           </Card>
           <Card style={styles.mycard}>
-            <Card.Title />
             <Card.Content>
               <Title>React Native</Title>
             </Card.Content>
 
           </Card>
           <Card style={styles.mycard}>
-            <Card.Title/>
             <Card.Content>
               <Title>React Native</Title>
             </Card.Content>
@@ -32,21 +29,18 @@ const ViewHolder = () =>{
         </View>
          <View>
           <Card style={styles.mycard}>
-            <Card.Title />
             <Card.Content>
               <Title>React Native</Title>
             </Card.Content>
 
           </Card>
           <Card style={styles.mycard}>
-            <Card.Title/>
             <Card.Content>
               <Title>React Native</Title>
             </Card.Content>
 
           </Card>
           <Card style={styles.mycard}>
-            <Card.Title/>
             <Card.Content>
               <Title>React Native</Title>
             </Card.Content>
